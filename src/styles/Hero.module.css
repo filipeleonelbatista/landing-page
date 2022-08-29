@@ -13,19 +13,19 @@
 .container div {
   display: flex;
   flex-direction: column;
-  gap: 0.4rem;
+  gap: 1.4rem;
   max-width: 450px;
 }
 
 .container h4 {
-  font-size: normal;
+  font-size: 1.6rem;
   font-weight: 400;
   color: #FFF;
   text-transform: uppercase;
 }
 
 .container h1 {
-  font-size: xx-large;
+  font-size: 2.6rem;
   font-weight: 600;
   color: #FFF;
   text-transform: uppercase;
@@ -33,13 +33,13 @@
 }
 
 .container p {
-  font-size: small;
+  font-size: 1.3rem;
   font-weight: 400;
   color: #FFF;
 }
 
 .container img {
-  max-width: 450px;
+  width: 50%;
 }
 
 .container button {
@@ -107,6 +107,11 @@
 
   .desktop {
     display: none;
+  }
+
+  .container img {
+    width: 100%;
+    margin-bottom: -25px;
   }
 
   .container div>div {
