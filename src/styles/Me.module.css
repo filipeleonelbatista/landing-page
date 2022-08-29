@@ -108,6 +108,10 @@
 }
 
 @media (max-width: 720px) {
+  .container{
+    padding: 2rem;
+    text-align: center;
+  }
   .desktop {
     display: none;
   }

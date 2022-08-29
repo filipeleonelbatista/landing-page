@@ -102,21 +102,26 @@
 
 @media (max-width: 720px) {
   .container {
+    padding: 2rem;
     align-items: center;
+    justify-content: center;
   }
 
   .desktop {
     display: none;
   }
 
-  .container img {
+  .container img {    
     width: 100%;
     margin-bottom: -25px;
   }
 
-  .container div>div {
+  .container div > div {
     display: flex;
     flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
   }
 
   .mobile {
@@ -128,5 +133,6 @@
 
   .container button {
     margin-top: 0;
+    width: 100%;
   }
 }

@@ -86,4 +86,15 @@
 
 
 @media (max-width: 720px) {
+  .container{
+    padding: 2rem;
+  }
+  
+  .container div img{
+    width: 80%;
+    height: auto;
+  }
+  .container div button{
+    width: 80%;
+  }
 }
