@@ -3,7 +3,7 @@ import me from '../assets/me.jpg'
 
 export default function Me() {
   function handleClick() {
-    window.open("https://wa.me/5511941536754?text=Oi%20Bela%2C%20fui%20indicada%20pela%2077933549", "_blank")
+    window.open("https://wa.me/5551984941682", "_blank")
   }
   return (
     <div className={styles.container}>
