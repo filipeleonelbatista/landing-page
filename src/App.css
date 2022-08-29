@@ -1,0 +1,77 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Poppins', sans-serif;
+}
+
+html {
+  overflow-x: hidden;
+
+}
+
+.App {
+  width: 100vw;
+  height: auto;
+  position: relative;
+}
+
+.FloatingContactButtonContainer{
+  
+  position: fixed;
+  
+  z-index: 10px;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+}
+
+.FloatingContactButton{
+  
+  margin: 1.6rem 0;
+  padding: 1.3rem;
+  border-radius: 2.4rem;
+
+  cursor: pointer;
+  border: 0px none rgba(3, 150, 255, 0);
+  background: rgba(103, 22, 144, 0.996);
+  box-shadow: rgb(59 2 74) 0px 0px 0px 0px;
+
+
+  font-size: large;
+  font-weight: 600;
+  color: #FFF;
+  text-transform: uppercase;
+
+  transition: 0.3s;
+
+  animation-name: stretch;
+  animation-duration: 0.8s;
+  animation-timing-function: ease-out;
+  animation-direction: alternate;
+  animation-iteration-count: infinite;
+  animation-play-state: running;
+}
+
+@keyframes stretch {
+  0% {
+      transform: scale(1);
+  }
+
+  100% {
+      transform: scale(1.1);
+  }
+}
+
+.FloatingContactButton:hover {
+  filter: brightness(1.3);
+}
+
+.FloatingContactButton:active {
+  filter: brightness(0.3);
+}
